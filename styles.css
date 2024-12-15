@@ -1,1 +1,94 @@
-/*  your css code here. If applicable */
+/* Body styling */
+body {
+  background-color: rgb(204, 204, 204);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.container {
+  width: 60%;
+  margin: 20px auto;
+}
+
+/* Title styling */
+h1 {
+  text-align: center;
+}
+
+/* Playlist section */
+.playlist {
+  background-color: white;
+	
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Now Playing Section */
+.now-playing {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Video Player Section */
+.video-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+video {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.audio-section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+
+.next_section {
+  background-color: white;
+	border-block-color:black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+audio {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
